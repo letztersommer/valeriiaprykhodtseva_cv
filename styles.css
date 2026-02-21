@@ -97,3 +97,27 @@ body {
 .job ul {
     margin-left: 20px;
 }
+
+@media (max-width: 768px) {
+    .cv {
+        grid-template-columns: 1fr; /* solo column */
+    }
+
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        padding: 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .download-btn {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
+
+
