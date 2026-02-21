@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.cv {
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* Sidebar */
+
+.sidebar {
+    background: #f7f7f7;
+    padding: 30px;
+    border-right: 15px solid #ddd;
+}
+
+.sidebar h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.sidebar section {
+    margin-bottom: 25px;
+}
+
+.sidebar h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 6px;
+}
+
+/* Main content */
+
+.content {
+    padding: 40px;
+}
+
+.content section {
+    margin-bottom: 35px;
+}
+
+.content h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.content h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    /* border-bottom: 2px solid #333; */
+    padding-bottom: 5px;
+}    
+
+.job h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.company {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    margin-left: 20px;
+}
